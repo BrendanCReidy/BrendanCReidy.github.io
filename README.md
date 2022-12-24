@@ -1,5 +1,6 @@
 # Projects
 ###  CUDA/C++ Deep Neural Network Platform (2021)
+![](https://c1.neweggimages.com/ProductImage/14-137-557-V01.jpg)
 **Description:** 
 A GPU implementation of the [code](https://github.com/BrendanCReidy/Java-ML-Framework/blob/master) used in this [paper](https://ieeexplore.ieee.org/abstract/document/9516756). The program uses *vanilla* CUDA/C++. This code-base is used for training DNNs with full GPU utilization using specialized CUDA Kernels. This program is over **10x faster** than the Java implementation.
 
@@ -9,6 +10,7 @@ Machine Learning, C++, CUDA, Hardware-Acceleration, Parallel Programming, GPU,
 [Code](https://github.com/iCAS-Lab/CUDA-Neural-Network)
 
 ###  In-Memory Analog Computing (2021)
+![](images/IMAC.png)
 **Description:** 
 
 **Keywords:**

@@ -1,7 +1,19 @@
 # Projects
-## [ML FOR 3D IC RELIABILITY](https://www.icaslab.com/research/ml-3d-ic-reliability)
-**Abstract:**
- TSV extrusion is a crucial reliability concern which can deform and crack interconnect layers in 3D ICs and cause device failures. Herein, the white light interferometry (WLI) technique is used to obtain the surface profile of the extruded TSVs. We have developed a program that uses raw data obtained from WLI to create a TSV extrusion morphology dataset, including TSV images with 54 × 54 pixels that are labeled and categorized into three morphology classes. Four CNN architectures with different network complexities are implemented and trained for TSV ex- trusion morphology classification application. Data augmentation and dropout approaches are utilized to realize a balance between overfitting and underfitting in the CNN models. Results obtained show that the CNN model with optimized complexity, dropout, and data augmentation can achieve a classification accuracy comparable to that of a human expert.
+###  In-Memory Analog Computing (2021)
+**Description:** 
+
+**Keywords:**
+Machine Learning, Analog Computing, In-Memory Computing, Quantization, Binary Neural Networks, Ternary Neural Networks, Convolutional Neural Networks
+
+[Website](https://www.icaslab.com/research/imac) | [Paper](https://ieeexplore.ieee.org/abstract/document/9516756) (**Best Paper Award**) | [Code](https://github.com/BrendanCReidy/Java-ML-Framework)
+
+### ML for 3D IC Reliability (2020)
+**Description:** Through Silicon Via (TSV) extrusion is a crucial reliability concern which can deform and crack interconnect layers in 3D ICs and cause device failures. We develop a TSV extrusion morphology dataset, where images are categorized into three morphology classes and then train a convolutional neural network (CNN). Our model acheives near-expert accuracy for TSV morphology classification.
+
+**Keywords:**
+Machine Learning, 3D IC, Convolutional Neural Networks
+
+[Website](https://www.icaslab.com/research/ml-3d-ic-reliability) | [Paper](https://ieeexplore.ieee.org/abstract/document/9356292) | [Code](https://github.com/iCAS-Lab/Deep-Morphology)
 
 ---
 [GPU Based DNN Program](https://github.com/iCAS-Lab/CUDA-Neural-Network)

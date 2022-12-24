@@ -1,12 +1,9 @@
-## Project Grave Yard
-
-**Project description:** 
-
-### Planet Exploration Game (March 2022)
+## [Main Page](/README)
+## Planet Exploration Game (March 2022)
+**Project description:** The goal of this project was to create a game where players could explore an infinite universe with diverse planets. Each planet would have different materials that can be mined by the player. Players can build ships, build their base, and explore planets.
 
 ### Section 1:  Inventory System
-
-### 1.1 Inventory UI
+#### 1.1 Inventory UI
 Players open their inventory by pressing <kbd>g</kbd> on the keyboard. When the mouse hovers over an object, the item name, quantity, and description are displayed.
 ##### Inventory UI Demo
 ![Inventory UI](https://lh5.googleusercontent.com/rQqQz0kEEIEoqUMlmpGMyG7zu2gfI6fnFJ8801PCaVSQmoxBcFCkLazrroLaK-2FSe0=w2400)
@@ -16,13 +13,13 @@ Players can equip items in their hotbar using the keyboard buttons <kbd>1</kbd>-
 ##### Crafting Demo
 ![Crafting](https://lh4.googleusercontent.com/5X3poHfc8QsjL6MThtwczlRFE3r17UEf489up88daNjGMvjHlGXaGGNgSCIu6riZWtU=w2400)
 
-### 1.2 Mining
+#### 1.2 Mining
 Users can break items using pickaxe. Different items have different durability and float on the ground when broken. Items are *pulled* towards the user when they get close and added to their inventory when they touch the character.
 
 ##### Mining Demo
 ![Mining](https://lh4.googleusercontent.com/d8ZZA-CEF34t4iXrueOdlicw3sPZ4UfCUttnhbrLCj0JqeBi4pGMQ75x9ao0pG9T0ks=w2400)
 
-### 1.3 Building
+#### 1.3 Building
 There are two building engines in the game: general purpose building and ship building. General purpose building is used for building things like bases. This type of building does not use physics so blocks placed for general building are stationary. Ship building on the other hand allows the user to build their own space ship which can be compiled if: A) the ship has 1 or more engine and B) the ship has a "captains chair" which is used for steering the ship. Only blocks that are connected to the captains chair (directly or indirectly) will become part of the final spaceship.
 
 ##### Ship Building Demo
@@ -34,7 +31,7 @@ After this the user can compile their ship and its off to infinity and beyond (t
 
 ![Flying Demo](https://lh5.googleusercontent.com/RsHVToAsd2oOLFOpkwI2eZwdNnWgnXa-qz4ukFRqt45P1sfZCltG0NpW0FXhgmH2IwY=w2400)
 
-I have yet to show any code so just to give a taste of whats under the hood here is an excerpt from the FlyModule the updates every game tick
+I have yet to show any code so just to give a taste of whats under the hood here is an excerpt from the FlyModule that updates every game tick
 ```Lua
 RunService.RenderStepped:Connect(function(step) -- at each game tick
   self:SetNormal(self:GetNormal()) -- set the normal vector to the current normal
@@ -61,7 +58,7 @@ UnitRay Pitch, Yaw, Roll            |  UnitRay Pitch, Yaw; asin(dx) Roll
 
 ### Section 2: Procedural Planet Generation: 
 
-### 2.1 Infinite Procedural Planets
+#### 2.1 Infinite Procedural Planets
 Players can explore an infinite universe using planets that are procedurally generated. The planets are generated using Perlin noise. Planets are rendered lazily (only a circle) until the player gets close, then they are generated again using perlin noise. 
 ##### Perlin Noise Example
 ![](images/perlin_noise.png)
@@ -69,7 +66,7 @@ Players can explore an infinite universe using planets that are procedurally gen
 ##### Infinite Planets
 ![](images/planets.png)
 ###### *each colored dot is an explorable planet*
-### 2.2 Planet Gravity
+#### 2.2 Planet Gravity
 Each planet has its own gravity and can be explored by the player.
 
 ![](https://lh6.googleusercontent.com/2G2acvP6gImwhZbrHXxwVn74jCrvBrM1h7PTN62znaQsPgvTrmZiIxrQaotWj5i0wVY=w2400)

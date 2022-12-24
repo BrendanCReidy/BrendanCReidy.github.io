@@ -16,7 +16,6 @@
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-
 ### Publications
 
 - ME Elbtity, PS Chandarana, **B Reidy**, JK Eshraghian, R Zand., "[APTPU: Approximate Computing Based Tensor Processing Unit](https://ieeexplore.ieee.org/abstract/document/9901385)," *IEEE Transactions on Circuits and Systems I: Regular Papers*, vol. 69, no. 12, pp. 5135-5146, Dec. 2022
@@ -26,10 +25,11 @@
 - **B Reidy** and R Zand., "[SOT-MRAM based Sigmoidal Neuron for Neuromorphic Architectures](https://arxiv.org/abs/2006.01238)," *2020 arXiv*.
 
 ---
+### Project Graveyard
+**Description:** Here lies the projects I worked on for weeks (or sometimes months) but didn't completely finish. Although these projects aren't finished there's a lot of good stuff in here. 
 
-
-
-
----
-<p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
+#### Projects:
+- [Planet Exploration Game](/planet_exploration)
+- [Project 2 Title](/pdf/sample_presentation.pdf)
+- [Project 3 Title](http://example.com/)
 <!-- Remove above link if you don't want to attibute -->

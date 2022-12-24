@@ -1,4 +1,3 @@
-## [Main Page](/README)
 ## Planet Exploration Game (March 2022)
 **Project description:** The goal of this project was to create a game where players could explore an infinite universe with diverse planets. Each planet would have different materials that can be mined by the player. Players can build ships, build their base, and explore planets.
 

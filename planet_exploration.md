@@ -1,5 +1,5 @@
 ## Planet Exploration Game (March 2022)
-**Project description:** The goal of this project was to create a game where players could explore an infinite universe with diverse planets. Each planet would have different materials that can be mined by the player. Players can build ships, build their base, and explore planets.
+**Project description:** The goal of this project was to create a game where players could explore an infinite universe with diverse planets. Each planet would have different materials that can be mined by the player. Players can build ships, build their base, and explore planets. With the exception of the planetary gravity code which was adapted for this game, every asset, UI, and line of code was developed by me.
 
 ### Section 1:  Inventory System
 #### 1.1 Inventory UI
@@ -19,11 +19,11 @@ Users can break items using pickaxe. Different items have different durability a
 ![Mining](https://lh4.googleusercontent.com/d8ZZA-CEF34t4iXrueOdlicw3sPZ4UfCUttnhbrLCj0JqeBi4pGMQ75x9ao0pG9T0ks=w2400)
 
 #### 1.3 Building
-There are two building engines in the game: general purpose building and ship building. General purpose building is used for building things like bases. This type of building does not use physics so blocks placed for general building are stationary. Ship building on the other hand allows the user to build their own space ship which can be compiled if: A) the ship has 1 or more engine and B) the ship has a "captains chair" which is used for steering the ship. Only blocks that are connected to the captains chair (directly or indirectly) will become part of the final spaceship.
+There are two building engines in the game: general purpose building and ship building. General purpose building is used for building things like bases. This type of building does not use physics so blocks placed for general building are stationary. Ship building on the other hand allows the user to build their own space ship which can be compiled if: A) the ship has 1 or more engine and B) the ship has a "captains chair" which is used for steering the ship. Only blocks that are connected to the captains chair (directly or indirectly) will become part of the final spaceship. The game determines whether blocks are connected to the captains chair by using a 3D breadth first search starting with the chair. 
 
 ##### Ship Building Demo
 ![Ship Building Demo](https://lh4.googleusercontent.com/MdoiOzlV8AnvwQpIvk3ywJ6YAH8h0KzINd5MWPmZTpl3TJnSuA-0Gpir3YZD2o6GvZI=w2400)
-Here we see a hyper-realistic space ship made by yours truly (I never claimed to be an artist).
+Here we see a *hyper-realistic* (sarcasm) space ship made by yours truly (I never claimed to be an artist).
 The red outline indicates that the blocks are not connected to a captains chair, and therefore will not become part of the ship after ship compilation. They turn green once the captains chair is place indicating that they are part of the ship.
 
 After this the user can compile their ship and its off to infinity and beyond (the red cube is a debug cube used as the center of rotation)
@@ -55,10 +55,12 @@ UnitRay Pitch, Yaw, Roll            |  UnitRay Pitch, Yaw; asin(dx) Roll
 :-------------------------:|:-------------------------:
 ![](https://lh3.googleusercontent.com/ND0W-JeFT6HcB10--Ykv-KfHH0GJ0QJ1VI7hVjNfWmyPSXcxT8esxeHcWCrU7HndRkQ=w2400)  |  ![](https://lh3.googleusercontent.com/KIcUs1sP5ocpqyJqvRN7sQ_N8GmBq4QrWojtZcZd07RIQlp0ffTMGeTGDUf2nfj9wgs=w2400)
 
+As you can see from the above examples, the control method on the right feels much more natural and looks way better. Small design choices like this are littered all throughout game development and can require a deep understanding of vector-math, linear algebra, and physics.
+
 ### Section 2: Procedural Planet Generation: 
 
 #### 2.1 Infinite Procedural Planets
-Players can explore an infinite universe using planets that are procedurally generated. The planets are generated using Perlin noise. Planets are rendered lazily (only a circle) until the player gets close, then they are generated again using perlin noise. 
+Players can explore an infinite universe using planets that are procedurally generated. The planets are generated using Perlin noise. Planets are rendered lazily (only a circle) until the player gets close, then they are rendered in high detail using perlin noise (and unrendered when the player gets far away). Although the planets are generated in real-time, and each planet is unique, they are persistent. This means the same planet will **always** look the same each time you visit it. (This is similar to how minecraft and other games use seeds to generate the same map).
 ##### Perlin Noise Example
 ![](images/perlin_noise.png)
 

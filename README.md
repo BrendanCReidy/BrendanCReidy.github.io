@@ -20,6 +20,8 @@
 - **Description:** A GPU implementation of the [code](https://github.com/BrendanCReidy/Java-ML-Framework/blob/master) used in this [paper](https://ieeexplore.ieee.org/abstract/document/9516756). The program uses *vanilla* CUDA/C++. This code-base is used for training DNNs with full GPU utilization using specialized CUDA Kernels. This program is over **10x faster** than the Java implementation.
 - **Keywords:** Machine Learning, C++, CUDA, Hardware-Acceleration, Parallel Programming, GPU
 - [Code](https://github.com/iCAS-Lab/CUDA-Neural-Network)
+
+
 ---
 ## Project Graveyard
 Here lies the projects I worked on for weeks (or sometimes months) but didn't completely finish. Although these projects aren't finished there's a lot of good stuff in here:

@@ -4,8 +4,8 @@
 
 ### Category Name 1 
 
-[Project Graveyard](/project_graveyard)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[ML FOR 3D IC RELIABILITY](https://www.icaslab.com/research/ml-3d-ic-reliability)
+<img src="images/deep-morphology.png?raw=true"/>
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
@@ -26,10 +26,7 @@
 
 ---
 ### Project Graveyard
-**Description:** Here lies the projects I worked on for weeks (or sometimes months) but didn't completely finish. Although these projects aren't finished there's a lot of good stuff in here. 
-
-#### Projects:
+**Description:** Here lies the projects I worked on for weeks (or sometimes months) but didn't completely finish. Although these projects aren't finished there's a lot of good stuff in here:
 - [Planet Exploration Game](/planet_exploration)
 - [Project 2 Title](/pdf/sample_presentation.pdf)
 - [Project 3 Title](http://example.com/)
-<!-- Remove above link if you don't want to attibute -->

@@ -3,7 +3,7 @@
 
 ####  In-Memory Analog Computing (2021)
 ![](images/IMAC.png)
-- **Description:**
+- **Description:** We develop an in-memory analog computing (IMAC) architecture realizing both synaptic behavior and activation functions within non-volatile memory arrays. It is shown the proposed IMAC architecture can be utilized to realize a multilayer perceptron (MLP) classifier achieving orders of magnitude performance improvement compared to previous mixed-signal and digital implementations. 
 - **Keywords:** Machine Learning, Analog Computing, In-Memory Computing, Quantization, Binary Neural Networks, Ternary Neural Networks, Convolutional Neural Networks
 - [Website](https://www.icaslab.com/research/imac) | [Paper](https://ieeexplore.ieee.org/abstract/document/9516756) (**Best Paper Award**) | [Code](https://github.com/BrendanCReidy/Java-ML-Framework)
 

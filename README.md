@@ -5,7 +5,7 @@
 ![](images/accelerators.png)
 - **Description:** Transformer models have become a dominant architecture in the world of machine learning. However, this increase in performance has come at the cost of ever-increasing model sizes requiring more resources to deploy. To address these issues, several edge AI accelerators have been developed. Here, we **develop a methodology to deploy** large natural language **models** (300+ million weights) **on edge devices** (Coral TPU Dev Board, Coral USB, Intel NCS2, Jetson Nano) for real-time integer inference achieving a **4x memory footprint reduction**, **14x latency reduction**, and **35x energy reduction** over baseline model. We provide extensive latency, power, and energy
 comparisons among the leading edge devices and show that our methodology allows for real-time inference of large Transformers while maintaining the lowest power and energy consumption of the leading edge devices on the market.
-- **Keywords:** Machine Learning, Tensor Processing Unit (TPU), Transformer Models, Edge AI Accelerators, GPU, VPU, BERT, Hardware Accelerator
+- **Keywords:** Machine Learning, Tensor Processing Unit (TPU), Transformer Models, Edge AI Accelerators, GPU, VPU, BERT, Hardware Accelerator, Quantization
 
 ####  Approximate Tensor Processing Unit (APTPU) (2022)
 ![](images/APTPU.png)

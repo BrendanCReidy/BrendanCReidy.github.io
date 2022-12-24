@@ -4,7 +4,7 @@
 ####  Transformer Accelerator (2022)
 ![](images/accelerators.png)
 - **Description:** Transformer models have become a dominant architecture in the world of machine learning. However, this increase in performance has come at the cost of ever-increasing model sizes requiring more resources to deploy. To address these issues, several edge AI accelerators have been developed. Among these, the Coral Edge TPU has shown promising results for image classification while maintaining very low energy consumption. Many of these devices, including the Coral TPU, were originally designed to accelerate convolutional neural networks, making deployment of Transformers challenging. Here, we propose a methodology to deploy Transformers on Edge TPU. We provide extensive latency, power, and energy comparisons among the leading edge devices and show that our methodology allows for real-time inference of large Transformers while maintaining the lowest power and energy consumption of the leading edge devices on the market.
-- **Keywords:** 
+- **Keywords:** Machine Learning, Tensor Processing Unit (TPU), Transformer Models, Edge AI Accelerators, GPU, VPU, BERT, Hardware Accelerator
 
 ####  Approximate Tensor Processing Unit (APTPU) (2022)
 ![](images/APTPU.png)

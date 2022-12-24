@@ -1,12 +1,6 @@
-# Projects
+# Brendan Reidy
+## Research
 
-###  CUDA/C++ Deep Neural Network Platform (2021)
-
-- **Description:** A GPU implementation of the [code](https://github.com/BrendanCReidy/Java-ML-Framework/blob/master) used in this [paper](https://ieeexplore.ieee.org/abstract/document/9516756). The program uses *vanilla* CUDA/C++. This code-base is used for training DNNs with full GPU utilization using specialized CUDA Kernels. This program is over **10x faster** than the Java implementation.
-- **Keywords:** Machine Learning, C++, CUDA, Hardware-Acceleration, Parallel Programming, GPU
-- [Code](https://github.com/iCAS-Lab/CUDA-Neural-Network)
-
----
 ####  In-Memory Analog Computing (2021)
 ![](images/IMAC.png)
 - **Description:**
@@ -20,7 +14,12 @@
 - **Keywords:** Machine Learning, 3D IC, Convolutional Neural Networks
 - [Website](https://www.icaslab.com/research/ml-3d-ic-reliability) | [Paper 1](https://ieeexplore.ieee.org/abstract/document/9356292) | [Paper 2](https://ieeexplore.ieee.org/abstract/document/9501584) | [Code](https://github.com/iCAS-Lab/Deep-Morphology)
 
+## Projects
+###  CUDA/C++ Deep Neural Network Platform (2021)
 
+- **Description:** A GPU implementation of the [code](https://github.com/BrendanCReidy/Java-ML-Framework/blob/master) used in this [paper](https://ieeexplore.ieee.org/abstract/document/9516756). The program uses *vanilla* CUDA/C++. This code-base is used for training DNNs with full GPU utilization using specialized CUDA Kernels. This program is over **10x faster** than the Java implementation.
+- **Keywords:** Machine Learning, C++, CUDA, Hardware-Acceleration, Parallel Programming, GPU
+- [Code](https://github.com/iCAS-Lab/CUDA-Neural-Network)
 ---
 ## Project Graveyard
 Here lies the projects I worked on for weeks (or sometimes months) but didn't completely finish. Although these projects aren't finished there's a lot of good stuff in here:
@@ -31,7 +30,7 @@ Here lies the projects I worked on for weeks (or sometimes months) but didn't co
   - [More Info](/planet_exploration)
 
 ---
-### Publications
+## Publications
 
 - ME Elbtity, PS Chandarana, **B Reidy**, JK Eshraghian, R Zand., "[APTPU: Approximate Computing Based Tensor Processing Unit](https://ieeexplore.ieee.org/abstract/document/9901385)," *IEEE Transactions on Circuits and Systems I: Regular Papers*, vol. 69, no. 12, pp. 5135-5146, Dec. 2022
 - ***(Best Paper Award)*** ME Elbtity, A Singh, **B Reidy**, X Guo, R Zand., "[An In-Memory Analog Computing Co-Processor for Energy-Efficient CNN Inference on Mobile Devices](http://example.com/)," *2021 IEEE Computer Society Annual Symposium on VLSI (ISVLSI)*, 2021

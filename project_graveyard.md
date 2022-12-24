@@ -14,7 +14,7 @@ Players open their inventory by pressing <kbd>g</kbd> on the keyboard. When the 
 Players can equip items in their hotbar using the keyboard buttons <kbd>1</kbd>-<kbd>5</kbd>. (This can be seen in 1.2 and 1.3) Items drop on death and can be picked up if the player returns to get them. All items are either used for: tools, crafting, or building.
 
 ##### Crafting Demo
-![Crafting](https://lh5.googleusercontent.com/RsHVToAsd2oOLFOpkwI2eZwdNnWgnXa-qz4ukFRqt45P1sfZCltG0NpW0FXhgmH2IwY=w2400)
+![Crafting](https://lh4.googleusercontent.com/5X3poHfc8QsjL6MThtwczlRFE3r17UEf489up88daNjGMvjHlGXaGGNgSCIu6riZWtU=w2400)
 
 ### 1.2 Mining
 Users can break items using pickaxe. Different items have different durability and float on the ground when broken. Items are *pulled* towards the user when they get close and added to their inventory when they touch the character.
@@ -59,28 +59,14 @@ UnitRay Pitch, Yaw, Roll            |  UnitRay Pitch, Yaw; asin(dx) Roll
 :-------------------------:|:-------------------------:
 ![](https://lh3.googleusercontent.com/ND0W-JeFT6HcB10--Ykv-KfHH0GJ0QJ1VI7hVjNfWmyPSXcxT8esxeHcWCrU7HndRkQ=w2400)  |  ![](https://lh3.googleusercontent.com/KIcUs1sP5ocpqyJqvRN7sQ_N8GmBq4QrWojtZcZd07RIQlp0ffTMGeTGDUf2nfj9wgs=w2400)
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+### Section 2: Procedural Planet Generation: 
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
+### 2.1 Infinite Procedural Planets
+Players can explore an infinite universe using planets that are procedurally generated. The planets are generated using Perlin noise. Planets are rendered lazily (only a circle) until the player gets close, then they are generated again using perlin noise. 
 
-### 2. Assess assumptions on which statistical inference will be based
+##### Infinite Planets
+![](images/planets.png)
+###### *each colored dot is an explorable planet*
+### 2.2 Planet Gravity
+![](https://lh6.googleusercontent.com/2G2acvP6gImwhZbrHXxwVn74jCrvBrM1h7PTN62znaQsPgvTrmZiIxrQaotWj5i0wVY=w2400)
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
-
-### 3. Support the selection of appropriate statistical tools and techniques
-
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
-### 4. Provide a basis for further data collection through surveys or experiments
-
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).

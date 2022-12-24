@@ -1,27 +1,27 @@
 # Brendan Reidy
 ## Research
 
-####  Transformer Accelerator (2022)
+###  Transformer Accelerator (2022)
 ![](images/accelerators.png)
 - **Description:** Transformer models have become a dominant architecture in the world of machine learning. However, this increase in performance has come at the cost of ever-increasing model sizes requiring more resources to deploy. To address these issues, several edge AI accelerators have been developed. Here, we **develop a methodology to deploy** large natural language **models** (300+ million weights) **on edge devices** (Coral TPU Dev Board, Coral USB, Intel NCS2, Jetson Nano) for real-time integer inference achieving a **4x memory footprint reduction**, **14x latency reduction**, and **35x energy reduction** over baseline model. We provide extensive latency, power, and energy
 comparisons among the leading edge devices and show that our methodology allows for real-time inference of large Transformers while maintaining the lowest power and energy consumption of the leading edge devices on the market.
 - **Keywords:** Machine Learning, Tensor Processing Unit (TPU), Transformer Models, Edge AI Accelerators, GPU, VPU, BERT, Hardware Accelerator, Quantization
 
-####  Approximate Tensor Processing Unit (APTPU) (2022)
+###  Approximate Tensor Processing Unit (APTPU) (2022)
 ![](images/APTPU.png)
 - **Description:** Deep learning workloads demand high resource utilization and frequent memory accesses, and thus require well-engineered memory bandwidth optimization. Thus, we propose an approximate tensor processing unit (APTPU). We conduct extensive experiments to evaluate the performance of the APTPU across various configurations and various workloads. A comparison with the state-of-the-art approximate systolic arrays shows that the APTPU can realize up to **1.58×, 2×, and 1.78×, reduction in delay, power, and area, respectively**, while using similar design specifications and synthesis constraints.
 - **Keywords:** Machine Learning, Hardware Acceleration, Approximate Computing, Quantization, Tensor Processing Unit, FPGA, Neural Networks
 - [Website](https://www.icaslab.com/research/approximate-computing-based-ai-accelerator) \| [Paper](https://ieeexplore.ieee.org/abstract/document/9901385) \| [Code](https://github.com/iCAS-Lab/AP-TPU)
 
 ---
-####  In-Memory Analog Computing (2021)
+###  In-Memory Analog Computing (2021)
 ![](images/IMAC.png)
 - **Description:** One of the major limitations of implementing deep learning models on mobile computing devices is their limited computing power and severe energy constraints. As alternatives to von Neumann architectures, in-memory computing (IMC) and near-memory computing (NMC) architectures aim to address these issues through performing processing within or near storage devices, respectively. We develop an in-memory analog computing (IMAC) architecture realizing both synaptic behavior and activation functions within non-volatile memory arrays. It is shown the proposed IMAC architecture can be utilized to realize a multilayer perceptron (MLP) classifier **achieving orders of magnitude performance improvement** compared to previous mixed-signal and digital implementations. 
 - **Keywords:** Machine Learning, Analog Computing, In-Memory Computing, Quantization, Binary Neural Networks, Ternary Neural Networks, Convolutional Neural Networks
 - [Website](https://www.icaslab.com/research/imac) \| [Paper](https://ieeexplore.ieee.org/abstract/document/9516756) (**Best Paper Award**) \| [Code](https://github.com/BrendanCReidy/Java-ML-Framework)
 
 ---
-#### ML for 3D IC Reliability (2020)
+### ML for 3D IC Reliability (2020)
 ![](images/deep_morphology.png)
 - **Description:** Through Silicon Via (TSV) extrusion is a crucial reliability concern which can deform and crack interconnect layers in 3D ICs and cause device failures. We develop a TSV extrusion morphology dataset, where images are categorized into three morphology classes and then train a convolutional neural network (CNN). Our model acheives near-expert accuracy for TSV morphology classification.
 - **Keywords:** Machine Learning, 3D IC, Convolutional Neural Networks

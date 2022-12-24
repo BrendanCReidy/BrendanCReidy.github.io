@@ -1,4 +1,13 @@
 # Projects
+###  CUDA/C++ Deep Neural Network Platform (2021)
+**Description:** 
+A GPU implementation of the [code](https://github.com/BrendanCReidy/Java-ML-Framework/blob/master) used in this [paper](https://ieeexplore.ieee.org/abstract/document/9516756). The program uses *vanilla* CUDA/C++. This code-base is used for training DNNs with full GPU utilization using specialized CUDA Kernels. This program is over **10x faster** than the Java implementation.
+
+**Keywords:**
+Machine Learning, C++, CUDA, Hardware-Acceleration, Parallel Programming, GPU, 
+
+[Code](https://github.com/iCAS-Lab/CUDA-Neural-Network)
+
 ###  In-Memory Analog Computing (2021)
 **Description:** 
 
@@ -15,24 +24,16 @@ Machine Learning, 3D IC, Convolutional Neural Networks
 
 [Website](https://www.icaslab.com/research/ml-3d-ic-reliability) | [Paper 1](https://ieeexplore.ieee.org/abstract/document/9356292) | [Paper 2](https://ieeexplore.ieee.org/abstract/document/9501584) | [Code](https://github.com/iCAS-Lab/Deep-Morphology)
 
----
-[GPU Based DNN Program](https://github.com/iCAS-Lab/CUDA-Neural-Network)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
 
 ---
 ### Project Graveyard
-**Description:** Here lies the projects I worked on for weeks (or sometimes months) but didn't completely finish. Although these projects aren't finished there's a lot of good stuff in here:
-- [Planet Exploration Game](/planet_exploration)
-- [Project 2 Title](/pdf/sample_presentation.pdf)
-- [Project 3 Title](http://example.com/)
+Here lies the projects I worked on for weeks (or sometimes months) but didn't completely finish. Although these projects aren't finished there's a lot of good stuff in here:
+- Planet Exploration Game 
+  - Description: The goal of this project was to create a game where players could explore an infinite universe with diverse planets. Each planet would have different materials that can be mined by the player. Players can build ships, build their base, and explore planets.
+  - Keywords: Procedural terrain generation, client-server interactions, user interface, inventory systems, 3D physics
+  - [More Info](/planet_exploration)
 
-
+---
 ### Publications
 
 - ME Elbtity, PS Chandarana, **B Reidy**, JK Eshraghian, R Zand., "[APTPU: Approximate Computing Based Tensor Processing Unit](https://ieeexplore.ieee.org/abstract/document/9901385)," *IEEE Transactions on Circuits and Systems I: Regular Papers*, vol. 69, no. 12, pp. 5135-5146, Dec. 2022

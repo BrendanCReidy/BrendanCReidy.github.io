@@ -1,12 +1,18 @@
 # Brendan Reidy
 ## Research
 
+####  Transformer Accelerator (2022)
+![](images/accelerators.png)
+- **Description:** Transformer models have become a dominant architecture in the world of machine learning. However, this increase in performance has come at the cost of ever-increasing model sizes requiring more resources to deploy. To address these issues, several edge AI accelerators have been developed. Among these, the Coral Edge TPU has shown promising results for image classification while maintaining very low energy consumption. Many of these devices, including the Coral TPU, were originally designed to accelerate convolutional neural networks, making deployment of Transformers challenging. Here, we propose a methodology to deploy Transformers on Edge TPU. We provide extensive latency, power, and energy comparisons among the leading edge devices and show that our methodology allows for real-time inference of large Transformers while maintaining the lowest power and energy consumption of the leading edge devices on the market.
+- **Keywords:** 
+
 ####  Approximate Tensor Processing Unit (APTPU) (2022)
 ![](images/APTPU.png)
 - **Description:** Deep learning workloads demand high resource utilization and frequent memory accesses, and thus require well-engineered memory bandwidth optimization. Thus, we propose an approximate tensor processing unit (APTPU). We conduct extensive experiments to evaluate the performance of the APTPU across various configurations and various workloads. A comparison with the state-of-the-art approximate systolic arrays shows that the APTPU can realize up to **1.58×, 2×, and 1.78×, reduction in delay, power, and area, respectively**, while using similar design specifications and synthesis constraints.
 - **Keywords:** Machine Learning, Hardware Acceleration, Approximate Computing, Quantization, Tensor Processing Unit, FPGA, Neural Networks
 - [Website](https://www.icaslab.com/research/approximate-computing-based-ai-accelerator) \| [Paper](https://ieeexplore.ieee.org/abstract/document/9901385) \| [Code](https://github.com/iCAS-Lab/AP-TPU)
 
+---
 ####  In-Memory Analog Computing (2021)
 ![](images/IMAC.png)
 - **Description:** One of the major limitations of implementing deep learning models on mobile computing devices is their limited computing power and severe energy constraints. As alternatives to von Neumann architectures, in-memory computing (IMC) and near-memory computing (NMC) architectures aim to address these issues through performing processing within or near storage devices, respectively. We develop an in-memory analog computing (IMAC) architecture realizing both synaptic behavior and activation functions within non-volatile memory arrays. It is shown the proposed IMAC architecture can be utilized to realize a multilayer perceptron (MLP) classifier **achieving orders of magnitude performance improvement** compared to previous mixed-signal and digital implementations. 

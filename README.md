@@ -9,6 +9,7 @@ Machine Learning, C++, CUDA, Hardware-Acceleration, Parallel Programming, GPU,
 
 [Code](https://github.com/iCAS-Lab/CUDA-Neural-Network)
 
+---
 ###  In-Memory Analog Computing (2021)
 ![](images/IMAC.png)
 **Description:** 
@@ -18,6 +19,7 @@ Machine Learning, Analog Computing, In-Memory Computing, Quantization, Binary Ne
 
 [Website](https://www.icaslab.com/research/imac) | [Paper](https://ieeexplore.ieee.org/abstract/document/9516756) (**Best Paper Award**) | [Code](https://github.com/BrendanCReidy/Java-ML-Framework)
 
+---
 ### ML for 3D IC Reliability (2020)
 ![](images/deep_morphology.png)
 **Description:** Through Silicon Via (TSV) extrusion is a crucial reliability concern which can deform and crack interconnect layers in 3D ICs and cause device failures. We develop a TSV extrusion morphology dataset, where images are categorized into three morphology classes and then train a convolutional neural network (CNN). Our model acheives near-expert accuracy for TSV morphology classification.

@@ -63,10 +63,17 @@ UnitRay Pitch, Yaw, Roll            |  UnitRay Pitch, Yaw; asin(dx) Roll
 
 ### 2.1 Infinite Procedural Planets
 Players can explore an infinite universe using planets that are procedurally generated. The planets are generated using Perlin noise. Planets are rendered lazily (only a circle) until the player gets close, then they are generated again using perlin noise. 
+##### Perlin Noise Example
+![](images/perlin_noise.png)
 
 ##### Infinite Planets
 ![](images/planets.png)
 ###### *each colored dot is an explorable planet*
 ### 2.2 Planet Gravity
+Each planet has its own gravity and can be explored by the player.
+
 ![](https://lh6.googleusercontent.com/2G2acvP6gImwhZbrHXxwVn74jCrvBrM1h7PTN62znaQsPgvTrmZiIxrQaotWj5i0wVY=w2400)
 
+Planets are generated using the [fibonacci sphere](https://arxiv.org/pdf/0912.4540.pdf) algorithm. We use sin(x) and sin(y) as the input to the perlin noise, and use the output as the distance from the center to draw spheres with procedurally generated hills and valleys. The color is also generated using perlin noise to give planets a unique feel. 
+
+This is as far as I got with this project. Although this is not a project I currently work on, it exposed me to procedural terrain generation, client-server interactions, UI systems, inventory systems, 3D physics, and more.

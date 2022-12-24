@@ -25,8 +25,9 @@
 ---
 ## Project Graveyard
 Here lies the projects I worked on for weeks (or sometimes months) but didn't completely finish. Although these projects aren't finished there's a lot of good stuff in here:
-#### Planet Exploration Game 
+#### Planet Exploration Game (Mar 2022)
 ![](images/planets.png)
+##### Each colored dot on screen is an explorable planet
   - Description: The goal of this project was to create a multi-player game where players could explore an infinite universe with diverse planets. Each planet would have different materials that can be mined by the player. Players can build ships, build their base, mine for resources, craft, and explore planets.
   - Keywords: Procedural terrain generation, client-server interactions, user interface, inventory systems, 3D physics
   - [More Info](/planet_exploration)

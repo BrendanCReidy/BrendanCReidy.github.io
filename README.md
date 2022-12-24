@@ -2,41 +2,27 @@
 
 ###  CUDA/C++ Deep Neural Network Platform (2021)
 
-**Description:** 
-A GPU implementation of the [code](https://github.com/BrendanCReidy/Java-ML-Framework/blob/master) used in this [paper](https://ieeexplore.ieee.org/abstract/document/9516756). The program uses *vanilla* CUDA/C++. This code-base is used for training DNNs with full GPU utilization using specialized CUDA Kernels. This program is over **10x faster** than the Java implementation.
-
-**Keywords:**
-Machine Learning, C++, CUDA, Hardware-Acceleration, Parallel Programming, GPU
-
-[Code](https://github.com/iCAS-Lab/CUDA-Neural-Network)
+- **Description:** A GPU implementation of the [code](https://github.com/BrendanCReidy/Java-ML-Framework/blob/master) used in this [paper](https://ieeexplore.ieee.org/abstract/document/9516756). The program uses *vanilla* CUDA/C++. This code-base is used for training DNNs with full GPU utilization using specialized CUDA Kernels. This program is over **10x faster** than the Java implementation.
+- **Keywords:** Machine Learning, C++, CUDA, Hardware-Acceleration, Parallel Programming, GPU
+- [Code](https://github.com/iCAS-Lab/CUDA-Neural-Network)
 
 ---
-###  In-Memory Analog Computing (2021)
-**Description:** 
-
-**Preview:**
+####  In-Memory Analog Computing (2021)
 ![](images/IMAC.png)
-
-**Keywords:**
-Machine Learning, Analog Computing, In-Memory Computing, Quantization, Binary Neural Networks, Ternary Neural Networks, Convolutional Neural Networks
-
-[Website](https://www.icaslab.com/research/imac) | [Paper](https://ieeexplore.ieee.org/abstract/document/9516756) (**Best Paper Award**) | [Code](https://github.com/BrendanCReidy/Java-ML-Framework)
+- **Description:**
+- **Keywords:** Machine Learning, Analog Computing, In-Memory Computing, Quantization, Binary Neural Networks, Ternary Neural Networks, Convolutional Neural Networks
+- [Website](https://www.icaslab.com/research/imac) | [Paper](https://ieeexplore.ieee.org/abstract/document/9516756) (**Best Paper Award**) | [Code](https://github.com/BrendanCReidy/Java-ML-Framework)
 
 ---
-### ML for 3D IC Reliability (2020)
-**Description:** Through Silicon Via (TSV) extrusion is a crucial reliability concern which can deform and crack interconnect layers in 3D ICs and cause device failures. We develop a TSV extrusion morphology dataset, where images are categorized into three morphology classes and then train a convolutional neural network (CNN). Our model acheives near-expert accuracy for TSV morphology classification.
-
-**Preview:**
+#### ML for 3D IC Reliability (2020)
 ![](images/deep_morphology.png)
-
-**Keywords:**
-Machine Learning, 3D IC, Convolutional Neural Networks
-
-[Website](https://www.icaslab.com/research/ml-3d-ic-reliability) | [Paper 1](https://ieeexplore.ieee.org/abstract/document/9356292) | [Paper 2](https://ieeexplore.ieee.org/abstract/document/9501584) | [Code](https://github.com/iCAS-Lab/Deep-Morphology)
+- **Description:** Through Silicon Via (TSV) extrusion is a crucial reliability concern which can deform and crack interconnect layers in 3D ICs and cause device failures. We develop a TSV extrusion morphology dataset, where images are categorized into three morphology classes and then train a convolutional neural network (CNN). Our model acheives near-expert accuracy for TSV morphology classification.
+- **Keywords:** Machine Learning, 3D IC, Convolutional Neural Networks
+- [Website](https://www.icaslab.com/research/ml-3d-ic-reliability) | [Paper 1](https://ieeexplore.ieee.org/abstract/document/9356292) | [Paper 2](https://ieeexplore.ieee.org/abstract/document/9501584) | [Code](https://github.com/iCAS-Lab/Deep-Morphology)
 
 
 ---
-### Project Graveyard
+## Project Graveyard
 Here lies the projects I worked on for weeks (or sometimes months) but didn't completely finish. Although these projects aren't finished there's a lot of good stuff in here:
 #### Planet Exploration Game 
 ![](images/planets.png)

@@ -1,4 +1,9 @@
 # Brendan Reidy
+# Table of Contents
+1. [Research](#Research)
+2. [Projects](#Projects)
+3. [Project Graveyard](#Project-Graveyard)
+4. [Publications](#Publications)
 ## Research
 
 ###  Transformer Accelerator (2022)

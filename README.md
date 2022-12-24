@@ -17,6 +17,7 @@ Machine Learning, Analog Computing, In-Memory Computing, Quantization, Binary Ne
 [Website](https://www.icaslab.com/research/imac) | [Paper](https://ieeexplore.ieee.org/abstract/document/9516756) (**Best Paper Award**) | [Code](https://github.com/BrendanCReidy/Java-ML-Framework)
 
 ### ML for 3D IC Reliability (2020)
+![](images/deep_morphology.png)
 **Description:** Through Silicon Via (TSV) extrusion is a crucial reliability concern which can deform and crack interconnect layers in 3D ICs and cause device failures. We develop a TSV extrusion morphology dataset, where images are categorized into three morphology classes and then train a convolutional neural network (CNN). Our model acheives near-expert accuracy for TSV morphology classification.
 
 **Keywords:**
@@ -28,8 +29,9 @@ Machine Learning, 3D IC, Convolutional Neural Networks
 ---
 ### Project Graveyard
 Here lies the projects I worked on for weeks (or sometimes months) but didn't completely finish. Although these projects aren't finished there's a lot of good stuff in here:
-- Planet Exploration Game 
-  - Description: The goal of this project was to create a game where players could explore an infinite universe with diverse planets. Each planet would have different materials that can be mined by the player. Players can build ships, build their base, and explore planets.
+#### Planet Exploration Game 
+![](images/planets.png)
+  - Description: The goal of this project was to create a multi-player game where players could explore an infinite universe with diverse planets. Each planet would have different materials that can be mined by the player. Players can build ships, build their base, mine for resources, craft, and explore planets.
   - Keywords: Procedural terrain generation, client-server interactions, user interface, inventory systems, 3D physics
   - [More Info](/planet_exploration)
 

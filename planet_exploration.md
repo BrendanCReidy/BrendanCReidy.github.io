@@ -55,7 +55,7 @@ UnitRay Pitch, Yaw, Roll            |  UnitRay Pitch, Yaw; asin(dx) Roll
 :-------------------------:|:-------------------------:
 ![](https://lh3.googleusercontent.com/ND0W-JeFT6HcB10--Ykv-KfHH0GJ0QJ1VI7hVjNfWmyPSXcxT8esxeHcWCrU7HndRkQ=w2400)  |  ![](https://lh3.googleusercontent.com/KIcUs1sP5ocpqyJqvRN7sQ_N8GmBq4QrWojtZcZd07RIQlp0ffTMGeTGDUf2nfj9wgs=w2400)
 
-As you can see from the above examples, the control method on the right feels much more natural and looks way better. Small design choices like this are littered all throughout game development and can require a deep understanding of vector-math, linear algebra, and physics.
+As you can see from the above examples, the control method on the right feels much more natural and looks way better. Small design choices like this are littered all throughout game development and can require a deep understanding of vector-math, linear algebra, and physics to achieve the desired look/feel.
 
 ### Section 2: Procedural Planet Generation: 
 

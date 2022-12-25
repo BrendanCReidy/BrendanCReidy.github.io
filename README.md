@@ -5,6 +5,7 @@
 3. [Project Graveyard](#project-graveyard)
 4. [Publications](#publications)
 
+---
 ## Research
 
 ###  Transformer Accelerator (2022)
@@ -13,6 +14,7 @@
 comparisons among the leading edge devices and show that our methodology allows for real-time inference of large Transformers while maintaining the lowest power and energy consumption of the leading edge devices on the market.
 - **Keywords:** Machine Learning, Tensor Processing Unit (TPU), Transformer Models, Edge AI Accelerators, GPU, VPU, BERT, Hardware Accelerator, Quantization
 
+---
 ###  Approximate Tensor Processing Unit (APTPU) (2022)
 ![](images/APTPU.png)
 - **Description:** Deep learning workloads demand high resource utilization and frequent memory accesses, and thus require well-engineered memory bandwidth optimization. Thus, we propose an approximate tensor processing unit (APTPU). We conduct extensive experiments to evaluate the performance of the APTPU across various configurations and various workloads. A comparison with the state-of-the-art approximate systolic arrays shows that the APTPU can realize up to **1.58×, 2×, and 1.78×, reduction in delay, power, and area, respectively**, while using similar design specifications and synthesis constraints.

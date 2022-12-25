@@ -4,6 +4,7 @@
 2. [Projects](#projects)
 3. [Project Graveyard](#project-graveyard)
 4. [Publications](#publications)
+
 ## Research
 
 ###  Transformer Accelerator (2022)
